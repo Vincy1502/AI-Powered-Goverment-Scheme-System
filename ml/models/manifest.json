@@ -1,0 +1,13 @@
+{
+  "artifact_version": 1,
+  "model_type": "tfidf_content_based_ranker",
+  "corpus_sha256": "08a7919f27eb379453acf27edc53d90be8cd4cf18829b092eff813c1b76e3e38",
+  "records": 174,
+  "matrix_shape": [
+    174,
+    9867
+  ],
+  "vocabulary_size": 9867,
+  "sklearn_version": "1.8.0",
+  "numpy_version": "2.3.5"
+}

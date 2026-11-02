@@ -1,0 +1,35 @@
+GOVSCHEME AI - STAGE 8 FRONTEND INTEGRATION REPORT
+Date: 2026-10-30
+Working base: GovScheme_AI_Stage7_Working_Project.zip (separate working directory)
+
+IMPLEMENTED
+1. Preserved the existing React/Vite page layout, colors, navigation, form, and scheme-detail modal.
+2. Connected the existing eligibility form flow to POST /api/schemes/recommend through the existing apiRequest helper. The request continues to use the authenticated user's bearer token.
+3. Added per-scheme eligibility status labels for confirmed_eligible, potential_eligibility, insufficient_information, and not_eligible.
+4. Added the backend's eligibility_summary to each scheme result.
+5. Added expandable structured-check details showing pass/fail/unknown, criterion, and explanation.
+6. Added a separate manual-review section for natural-language eligibility criteria and exclusions, including the review reason.
+7. Preserved the relevance score as a content-ranking signal and explicitly kept it separate from eligibility status.
+8. Added responsive styles for status panels, check indicators, and manual-review content.
+9. No frontend hardcoded scheme recommendation records were introduced.
+
+VALIDATION PERFORMED
+- Python Stage 7 regression suite: 17 tests passed, 0 failed (run from ml/).
+- Node syntax checks: backend/server.js, backend/routes/schemeRoutes.js, and frontend/src/lib/api.js passed.
+- Frontend production build/lint: NOT RUN. frontend/node_modules was absent; npm install --ignore-scripts --no-audit --no-fund exceeded the available execution time, so Vite was unavailable.
+- Browser workflow: NOT RUN; live MongoDB credentials and browser session are unavailable.
+- Live authenticated HTTP request from the browser to Node to FastAPI: NOT RUN.
+
+LIMITATIONS
+- Confirmed eligibility is only displayed if the API returns confirmed_eligible; the current dataset has no verified per-scheme provenance, so ordinary results should remain potential or insufficient, or not eligible when a captured rule conflicts.
+- Free-text eligibility conditions and exclusions remain explicitly marked for manual review.
+- Production build, responsive browser inspection, and authenticated end-to-end workflow still need local verification.
+
+LOCAL VERIFICATION
+1. Install frontend dependencies: cd frontend && npm install.
+2. Run frontend checks: npm run build && npm run lint.
+3. Start MongoDB-backed Node API and FastAPI ML service using their respective .env files.
+4. Start Vite and sign in; submit the eligibility form and inspect status, structured checks, and manual-review sections.
+
+NEXT
+Stage 9: complete cross-layer integration and run authenticated API/browser workflow tests, then address any verified issues.

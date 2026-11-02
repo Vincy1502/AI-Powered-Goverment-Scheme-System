@@ -1,0 +1,48 @@
+import { useState } from "react";
+import Navbar from "../components/Navbar";
+import { apiRequest } from "../lib/api";
+const states = ["Tamil Nadu","Kerala","Karnataka","Andhra Pradesh","Telangana","Maharashtra","Delhi","Uttar Pradesh","West Bengal","Other"];
+const occupations = ["Student","Farmer","Employee","Business","Unemployed","Other"];
+const categories = ["General","SC","ST","OBC","Other / Not specified"];
+const asList = (v) => Array.isArray(v) ? v : v ? [String(v)] : [];
+const eligibilityLabels = {
+  confirmed_eligible: "Confirmed by verified rules",
+  potential_eligibility: "Potential match — review required",
+  insufficient_information: "More information needed",
+  not_eligible: "A recorded criterion does not match",
+};
+const checkLabels = { pass: "Pass", fail: "Does not match", unknown: "Unknown" };
+export default function Eligibility(){
+ const user=(()=>{try{return JSON.parse(localStorage.getItem("govscheme_user")||"null")}catch{return null}})();
+ const [profile,setProfile]=useState({name:user?.name||"",age:"",gender:"",state:"Tamil Nadu",occupation:"Student",income:"",category:"General",query:""});
+ const [result,setResult]=useState(null);const [selected,setSelected]=useState(null);const [error,setError]=useState("");const [busy,setBusy]=useState(false);
+ function update(e){setProfile({...profile,[e.target.name]:e.target.value})}
+ async function submit(e){e.preventDefault();setError("");setResult(null);setBusy(true);try{const data=await apiRequest("/api/schemes/recommend",{method:"POST",body:JSON.stringify(profile)});setResult(data);}catch(err){setError(err.message);}finally{setBusy(false)}}
+ return <><Navbar/><main className="workspace-page"><div className="container workspace-container"><div className="page-heading"><div><div className="eyebrow">PERSONALISED SCHEME DISCOVERY</div><h1>Find schemes that <span>fit your profile.</span></h1><p>Share a few details to rank relevant schemes from your live catalogue.</p></div><div className="page-heading-badge"><span>✳</span><div><strong>ML-powered ranking</strong><small>TF-IDF + cosine similarity</small></div></div></div>
+ <div className="discovery-layout"><section className="profile-panel"><div className="panel-heading"><div className="panel-icon">01</div><div><h2>Your profile</h2><p>Use details you are comfortable sharing.</p></div></div><form className="profile-form" onSubmit={submit}>
+ <label>Full name<input name="name" value={profile.name} onChange={update} placeholder="Your name" autoComplete="name"/></label>
+ <div className="form-row"><label>Age <span className="label-hint">Optional</span><input type="number" name="age" value={profile.age} onChange={update} min="0" max="120" placeholder="e.g. 23"/></label><label>Gender <span className="label-hint">Optional</span><select name="gender" value={profile.gender} onChange={update}><option value="">Prefer not to say</option><option>Female</option><option>Male</option><option>Other</option></select></label></div>
+ <label>State / Union Territory<select name="state" value={profile.state} onChange={update} required>{states.map(s=><option key={s} value={s}>{s}</option>)}</select></label>
+ <label>Occupation<select name="occupation" value={profile.occupation} onChange={update} required>{occupations.map(s=><option key={s}>{s}</option>)}</select></label>
+ <div className="form-row"><label>Annual family income (₹) <span className="label-hint">Optional</span><input type="number" name="income" value={profile.income} onChange={update} min="0" placeholder="e.g. 120000"/></label><label>Category<select name="category" value={profile.category} onChange={update}>{categories.map(s=><option key={s}>{s}</option>)}</select></label></div>
+ <label>What support are you looking for? <span className="label-hint">Optional</span><textarea name="query" value={profile.query} onChange={update} placeholder="e.g. education support, agriculture loan, skill training" rows="3"/></label>
+ <button className="button button-primary button-full button-large" disabled={busy}>{busy?"Finding relevant schemes…":"Find relevant schemes"}<span>↗</span></button><p className="privacy-note"><span>◈</span> Your profile is used to generate this recommendation request. This page does not save the profile to your account.</p>
+ </form></section>
+ <section className="results-panel"><div className="results-top"><div><div className="eyebrow">YOUR RESULTS</div><h2>{result?`${result.recommendations?.length||0} recommendations`:"Your scheme matches"}</h2><p>{result?`Ranked from ${result.total_schemes_received} live scheme records.`:"Your ranked results will appear here after you submit your profile."}</p></div><span className="results-spark">✳</span></div>
+ {error&&<div className="alert alert-error"><strong>Could not generate recommendations</strong><p>{error}</p><small>Check that the Node backend, MongoDB connection and Python FastAPI service are running.</small></div>}
+ {!result&&!error&&<div className="empty-results"><div className="empty-art"><span>⌕</span><i/><b/></div><h3>Good matches start with context.</h3><p>Complete your profile and we’ll rank scheme descriptions using text relevance. You can then inspect the official eligibility conditions.</p><div className="empty-steps"><span><b>1</b> Add details</span><span><b>2</b> Rank schemes</span><span><b>3</b> Review criteria</span></div></div>}
+ {result&&<><div className="model-note"><span>✳</span><div><strong>Ranking method: {result.method}</strong><p>This is a relevance score, not a probability of eligibility.</p></div></div>{result.recommendations?.length? <div className="scheme-results">{result.recommendations.map((scheme,index)=><article className="scheme-result" key={scheme._id||scheme.scheme_name}>
+ <div className="scheme-result-top"><span className="rank-number">{String(index+1).padStart(2,"0")}</span><span className="relevance-chip">{scheme.relevance_percent}% relevance</span></div>
+ <div className="scheme-category">{scheme.parent_scheme||scheme.department||"Government scheme"}</div><h3>{scheme.scheme_name}</h3>
+ <div className={`eligibility-status status-${scheme.eligibility_status||"unknown"}`}><strong>{eligibilityLabels[scheme.eligibility_status]||"Eligibility not assessed"}</strong><p>{scheme.eligibility_summary||"No structured eligibility assessment was returned."}</p></div>
+ <p className="scheme-summary">{asList(scheme.objectives).slice(0,2).join(" ")||"Review the scheme details and eligibility conditions."}</p>
+ <div className="scheme-reasons"><strong>Why it appeared</strong><ul>{asList(scheme.recommendation_reasons).slice(0,3).map((r,i)=><li key={i}>{r}</li>)}</ul></div>
+ {scheme.eligibility_checks?.length>0&&<details className="eligibility-details"><summary>Structured checks ({scheme.eligibility_checks.length})</summary><ul>{scheme.eligibility_checks.map((check,i)=><li key={`${check.criterion}-${i}`}><span className={`check-pill check-${check.status}`}>{checkLabels[check.status]||check.status}</span><span><b>{check.criterion}</b> — {check.detail}</span></li>)}</ul></details>}
+ {scheme.manual_review?.length>0&&<div className="manual-review"><strong>Manual review required</strong>{scheme.manual_review.map((item,i)=><div key={`${item.field}-${i}`}><b>{item.field.replaceAll("_"," ")}</b><p>{item.text}</p><small>{item.reason}</small></div>)}</div>}
+ <div className="scheme-result-bottom"><span className="review-tag">ⓘ {scheme.confirmed_eligibility_allowed?"Verified rule provenance attached":"Not an official eligibility decision"}</span><button className="text-button" onClick={()=>setSelected(scheme)}>View details <span>↗</span></button></div>
+ </article>)}</div>:<div className="empty-results compact"><h3>No text matches found</h3><p>Try adding a support-related phrase or adjusting your occupation/state. This does not prove that no schemes are available to you.</p></div>}
+ <div className="results-disclaimer">{result.evaluation_note||"Always verify scheme eligibility with the official authority."}</div></>}
+ </section></div></div></main>
+ {selected&&<div className="modal-backdrop" onClick={()=>setSelected(null)}><section className="scheme-modal" onClick={e=>e.stopPropagation()} role="dialog" aria-modal="true" aria-label="Scheme details"><button className="modal-close" onClick={()=>setSelected(null)} aria-label="Close">×</button><div className="eyebrow">SCHEME DETAILS</div><h2>{selected.scheme_name}</h2><p className="modal-parent">{selected.parent_scheme||"Government scheme"}</p><div className="modal-section"><h3>Objectives</h3>{asList(selected.objectives).map((x,i)=><p key={i}>• {x}</p>)}</div><div className="modal-section"><h3>Eligibility criteria</h3>{asList(selected.eligibility_criteria).map((x,i)=><p key={i}>• {x}</p>)}</div><div className="modal-section"><h3>Benefits</h3><pre>{typeof selected.benefits==="object"?JSON.stringify(selected.benefits,null,2):String(selected.benefits||"Not specified")}</pre></div><div className="modal-section"><h3>Documents required</h3>{asList(selected.documents_required).map((x,i)=><p key={i}>• {x}</p>)}</div><div className="modal-section"><h3>Application process</h3><pre>{typeof selected.application_process==="object"?JSON.stringify(selected.application_process,null,2):String(selected.application_process||"Not specified")}</pre></div><div className="modal-section"><h3>Official links</h3>{Object.entries(selected.official_links||{}).map(([key,value])=>typeof value==="string"&&value.startsWith("http")?<p key={key}><a href={value} target="_blank" rel="noreferrer">{key}: {value}</a></p>:null)}</div><div className="alert alert-warning">This recommendation does not confirm eligibility. Please check the official scheme authority's latest rules.</div></section></div>}
+ </>;
+}

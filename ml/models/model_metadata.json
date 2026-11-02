@@ -1,0 +1,17 @@
+{
+  "method": "TF-IDF word unigrams and bigrams",
+  "method_type": "content-based feature extraction; not supervised classification",
+  "records_received": 174,
+  "records_used": 174,
+  "records_skipped_no_text": 0,
+  "matrix_rows": 174,
+  "matrix_columns": 9867,
+  "vocabulary_size": 9867,
+  "nonzero_weights": 27923,
+  "sparsity_percent": 98.3736,
+  "average_nonzero_terms_per_scheme": 160.48,
+  "fit_time_ms": 32.376,
+  "corpus_sha256": "08a7919f27eb379453acf27edc53d90be8cd4cf18829b092eff813c1b76e3e38",
+  "classification_metrics": null,
+  "evaluation_note": "No verified user-scheme eligibility labels are supplied. Accuracy, precision, recall and F1 are therefore not applicable."
+}

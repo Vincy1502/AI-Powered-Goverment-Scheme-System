@@ -1,0 +1,47 @@
+GOVSCHEME AI – STAGE 6 IMPLEMENTATION REPORT
+
+Training source:
+ml/data/cleaned_schemes.csv
+
+Training result:
+- Records received: 174
+- Records used: 174
+- Records skipped: 0
+- Matrix shape: 174 x 9867
+- Vocabulary size: 9867
+- Non-zero weights: 27923
+- Sparsity: 98.3736%
+- Fit time in this execution: 32.376 ms
+- Corpus SHA-256: 08a7919f27eb379453acf27edc53d90be8cd4cf18829b092eff813c1b76e3e38
+
+Persistence:
+- Artifact version: 1
+- Model type: tfidf_content_based_ranker
+- Scikit-learn version: 1.8.0
+- NumPy version: 2.3.5
+- Artifacts saved: tfidf_vectorizer.joblib, scheme_tfidf_matrix.npz, scheme_metadata.json, model_metadata.json, manifest.json
+- Reload validation: successful
+- Reloaded matrix shape: [174, 9867]
+- Reloaded metadata row count: 174
+
+Artifact file sizes:
+- tfidf_vectorizer.joblib: 93015 bytes
+- scheme_tfidf_matrix.npz: 142766 bytes
+- scheme_metadata.json: 45519 bytes
+- model_metadata.json: 688 bytes
+- manifest.json: 306 bytes
+
+Automated tests:
+- Total tests: 10
+- Passed: 10
+- Failed: 0
+- Coverage includes training, persistence, reload, dimension checks, missing artifact rejection,
+  dataset fingerprint mismatch rejection, application-mode normalization, blank-age handling,
+  JSON text flattening and profile query field handling.
+
+Safety and interpretation:
+- Blank eligibility fields remain unknown.
+- No supervised eligibility labels or classification metrics were fabricated.
+- Model artifacts support content-based TF-IDF ranking only.
+- Dataset fingerprint validation detects a changed corpus when the caller supplies the expected fingerprint.
+- The existing FastAPI endpoint has not yet been switched to use the persisted model; that integration is a later stage.

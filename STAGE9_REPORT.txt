@@ -1,0 +1,44 @@
+GOVSCHEME AI - STAGE 9 INTEGRATION TESTING REPORT
+Date: 2026-10-30
+Working base: GovScheme_AI_Stage8_Working_Project.zip
+Working copy: separate extracted directory; original ZIP and Library artifact preserved
+
+SCOPE
+- Inspected the Stage 8 project ZIP and its frontend, Node/Express backend, FastAPI service, persisted ML artifacts, dataset, and existing tests.
+- Executed the Python ML/API test suite and added focused Stage 9 request-validation tests.
+- Checked JavaScript syntax for backend files and frontend/src/lib/api.js.
+- Attempted the frontend production build and dependency installation.
+
+ACTUAL TEST RESULTS
+1. Python ML and API regression tests: 21 passed, 0 failed.
+   - Existing Stage 7 tests: 17 passed.
+   - New Stage 9 tests: 4 passed.
+2. Persisted model health endpoint: passed through FastAPI TestClient; model_ready=true and model_source=persisted_stage6_artifacts.
+3. Recommendation endpoint: passed through FastAPI TestClient; recommendations include structured eligibility fields and manual-review details.
+4. Empty scheme list: HTTP 422 as expected.
+5. Missing state/occupation profile fields: HTTP 422 as expected at FastAPI layer.
+6. Invalid numeric age/income strings: request handled; values are not treated as passing eligibility checks.
+7. Invalid recommendation limit (0): HTTP 422 as expected.
+8. Node syntax checks: passed for backend/server.js, backend route/model/middleware JavaScript files, and frontend/src/lib/api.js.
+
+NOT COMPLETED / BLOCKED
+- Frontend production build: not completed; Vite is not installed in the extracted working copy.
+- Dependency installation: npm install --ignore-scripts --no-audit --no-fund timed out after 120 seconds in this environment.
+- Node/Express live API startup: not completed because no MongoDB URI/credentials were supplied and backend startup requires MongoDB.
+- Authenticated Node-to-FastAPI request: not completed; requires running Node backend, MongoDB scheme records, JWT authentication, and live service processes.
+- React browser workflow and responsive UI inspection: not completed; no running frontend/browser session was available.
+- Register -> Login -> Submit -> ML results full workflow: not completed.
+
+OBSERVATIONS / RISKS
+- The FastAPI service uses the persisted 174-row cleaned dataset for TF-IDF ranking and structured eligibility checks, and joins live MongoDB records by exact scheme name for selected display fields.
+- The backend recommendation route requires authentication and rejects missing state or occupation. It forwards profile and live scheme records to FastAPI.
+- Numeric profile values that cannot be parsed by Node's Number conversion serialize as null and should remain unknown in the eligibility engine; frontend form validation should still prevent such input.
+- The current test suite validates FastAPI behavior, not the live Node/MongoDB/auth/browser chain.
+- No accuracy, precision, recall, F1, or ranking-quality claims are made because verified labels/relevance judgements are not available.
+- Official free-text eligibility criteria and exclusions still require manual review. Confirmed eligibility requires verified official-rule provenance.
+
+CONCLUSION
+Stage 9 is PARTIALLY VALIDATED. The Python recommendation/eligibility service and persisted model pass 21 automated tests, and JavaScript syntax checks pass. Full-stack integration remains unverified pending dependency installation, MongoDB configuration, authenticated Node/FastAPI execution, and browser testing.
+
+NEXT ACTION
+Run the documented local setup with MongoDB Atlas/local MongoDB credentials, install frontend/backend dependencies, then execute the authenticated browser workflow. Fix only issues reproduced during that run.

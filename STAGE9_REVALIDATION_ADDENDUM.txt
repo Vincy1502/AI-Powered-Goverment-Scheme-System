@@ -1,0 +1,43 @@
+GOVSCHEME AI - STAGE 9 REVALIDATION ADDENDUM
+Date: 2026-10-30
+Base: GovScheme_AI_Stage9_Testing_Working_Project.zip
+Working directory: separate extracted copy; source Library ZIP preserved
+
+REVALIDATION PERFORMED IN THIS SESSION
+1. Extracted the saved Stage 9 testing ZIP into a separate working directory.
+2. Re-ran the Python test suite from the correct directory:
+   Command: cd ml && python -m unittest discover -s tests -v
+   Result: 21 tests passed, 0 failed.
+3. Re-ran Node syntax validation for:
+   - backend/importData.js
+   - backend/middleware/auth.js
+   - backend/models/Scheme.js
+   - backend/models/User.js
+   - backend/routes/authRoutes.js
+   - backend/routes/schemeRoutes.js
+   - backend/server.js
+   - frontend/src/lib/api.js
+   Result: all 8 node --check commands passed.
+4. Inspected backend/routes/schemeRoutes.js and backend/server.js.
+   Observed: /api/schemes/recommend is protected by requireAuth, reads MongoDB scheme records, forwards profile + schemes to ML_SERVICE_URL/recommend, uses a 20-second abort timeout, and maps ML errors to API errors.
+   Observed: backend startup requires MONGODB_URI and connects to MongoDB before listening.
+5. Inspected backend and frontend package manifests and .env.example files.
+   Result: dependencies are declared; node_modules directories are absent in this working copy.
+
+NOT TESTED / STILL BLOCKED
+- npm install and frontend production build/lint: not run in this revalidation; dependencies are not installed.
+- Node/Express live startup: not run; a configured MongoDB instance and local backend dependencies are required.
+- Authenticated Node -> FastAPI request: not run; requires both services running, MongoDB scheme records, and a valid JWT.
+- Browser-based React workflow and responsive inspection: not run.
+- Register -> Login -> Submit -> Recommendations full workflow: not run.
+
+SAFETY
+- No database credentials, JWT secrets, or API keys were added to this package.
+- No original project or source dataset was overwritten.
+- No scheme records, eligibility labels, or ML metrics were fabricated.
+
+STATUS
+Stage 9 remains PARTIALLY VALIDATED. The saved Python/API test suite and JavaScript syntax checks are reproducibly passing. Full-stack integration cannot be marked complete until local dependency installation, MongoDB configuration, authenticated Node-to-FastAPI execution, and browser workflow testing are completed.
+
+NEXT ACTION
+On the user's computer, configure backend/.env using their own MongoDB URI and a strong JWT_SECRET (do not share secrets in chat), install backend/frontend dependencies, start FastAPI and Node, then perform authenticated browser testing. Record actual outcomes and fix only reproducible defects.

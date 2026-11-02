@@ -1,0 +1,1220 @@
+[
+  {
+    "row_index": 0,
+    "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation",
+    "state": "Tamil Nadu",
+    "category_file": "agriculture",
+    "source_document_sha256": "e44fefeb36ea886110fc5eef6536f854b9550b18e98b70c3b703ba9fc468a05d"
+  },
+  {
+    "row_index": 1,
+    "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Plantation (Tea)",
+    "state": "Tamil Nadu",
+    "category_file": "agriculture",
+    "source_document_sha256": "f8765db64446025e81b9c4be7a1a344623783305d305ce8b5feb1451719a13ed"
+  },
+  {
+    "row_index": 2,
+    "scheme_name": "Distribution of Soil Health Card",
+    "state": "Tamil Nadu",
+    "category_file": "agriculture",
+    "source_document_sha256": "fda3d8985474b8419dd6d462225ca9f3581a6450cd83730b17087d8de8e07c91"
+  },
+  {
+    "row_index": 3,
+    "scheme_name": "Distribution of Certified Seeds of Maize",
+    "state": "Tamil Nadu",
+    "category_file": "agriculture",
+    "source_document_sha256": "00072cb0cb6dec116db791e3fe96fe2dbe836f06ad6d86e280d0dac5cf391ad1"
+  },
+  {
+    "row_index": 4,
+    "scheme_name": "Pipes Carrying Water From Source To Field",
+    "state": "Tamil Nadu",
+    "category_file": "agriculture",
+    "source_document_sha256": "79f2caa103a1411292c3b5add799720a48d6b95ddce42d85efbab439b83677ab"
+  },
+  {
+    "row_index": 5,
+    "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase",
+    "state": "Tamil Nadu",
+    "category_file": "agriculture",
+    "source_document_sha256": "818c4f78ad91eca35b35adba865b996fc47af3c2d3ae3dc9f6d160f74c7f6fd9"
+  },
+  {
+    "row_index": 6,
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi Yojana",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "cecb27c8cf9e7d07e17eb271430a536c2c3d8e925f8c3f25c36e09f8e729c161"
+  },
+  {
+    "row_index": 7,
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "08103d5613895fa46240e186483a466b41c0d277234b3dec51f92ee9a76e5277"
+  },
+  {
+    "row_index": 8,
+    "scheme_name": "Soil Health Management Scheme",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "fda7e2ed05c9fde867e132944b64eb8b7b7c565817e58c5897bc7f73f2e4c738"
+  },
+  {
+    "row_index": 9,
+    "scheme_name": "National Agriculture Market (e-NAM)",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "1cca2b03881535e4d95dfc652e9545d457c0891f88e25cb90cf564a902cc9e38"
+  },
+  {
+    "row_index": 10,
+    "scheme_name": "Kisan Credit Card Scheme",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "1fe4c5feb705af41883bed8c6931941968c75188bef1ab6998d7cfef332bb8a6"
+  },
+  {
+    "row_index": 11,
+    "scheme_name": "Paramparagat Krishi Vikas Yojana",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "6efc3bc28ac1ef9906f34b7ff2ad2c4a67424b3f43a86c2d8c5824e86181fe2c"
+  },
+  {
+    "row_index": 12,
+    "scheme_name": "Micro Irrigation Fund",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "c681862df64a39c1b6cbc0728cd4479dee9dde412459082b754597c4ad171aac"
+  },
+  {
+    "row_index": 13,
+    "scheme_name": "Agricultural Mechanization for Small Farmers",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "6e854349b184b367dc6ac04b3951f9c28fbb84f87704009872ce325ad640a026"
+  },
+  {
+    "row_index": 14,
+    "scheme_name": "National Mission on Oilseeds and Oil Palm",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "8da3641d0008de7a221a91493f27c6516cf88667d6fff39fcca594bd9066ba66"
+  },
+  {
+    "row_index": 15,
+    "scheme_name": "Dairy Entrepreneurship Development Scheme",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "f8ef2b63bbb694f61668ddacc7f7670b8e186679cc6aaceb1264c1e2cf37c66a"
+  },
+  {
+    "row_index": 16,
+    "scheme_name": "National Horticulture Mission",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "f100e1e1ba5a5668f27a5cdb62da93c65a4fb0ff3337e5bbcb2772be45633518"
+  },
+  {
+    "row_index": 17,
+    "scheme_name": "Rashtriya Krishi Vikas Yojana",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "be4454b4c02dcf46d5ad79f412baba754056a8f015dc1a73ce84b03e3e083527"
+  },
+  {
+    "row_index": 18,
+    "scheme_name": "National Bamboo Mission",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "9e2e58e77987d42e02dac5fd674804db1411213418e3333cf8882fcbbb09183e"
+  },
+  {
+    "row_index": 19,
+    "scheme_name": "Sub-Mission on Agricultural Extension",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "cd6d61d0e35bfa286f783e6bce7428e33cdd6a4672d138fd82f04cc4cb1b8234"
+  },
+  {
+    "row_index": 20,
+    "scheme_name": "Pradhan Mantri Krishi Sinchayee Yojana - Watershed Development",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "a5049fa40b99dfe3b10f830b01b84ff6b8993d0defb31f497ba94e9ce659efdc"
+  },
+  {
+    "row_index": 21,
+    "scheme_name": "National Mission for Sustainable Agriculture",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "383f01a5c01650001a305f2fa8a423c3c1df2410a73703e2c5b58efd18d050d4"
+  },
+  {
+    "row_index": 22,
+    "scheme_name": "Livestock Insurance Scheme",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "957ef4d1450b2a2ea15dd8f07728f25352efa3e7c0ebf6a090bdcf16ab70bcea"
+  },
+  {
+    "row_index": 23,
+    "scheme_name": "Agri-Clinics and Agri-Business Centres Scheme",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "7aff38114918126ff1912b2d5f8ff9a39c5c3c6e888d6217b80b4fbc00b0a9af"
+  },
+  {
+    "row_index": 24,
+    "scheme_name": "National Beekeeping and Honey Mission",
+    "state": "All India",
+    "category_file": "agriculture",
+    "source_document_sha256": "2851c98933b7aa9a2acab54112a19f20bc894bf87616e44c6ae445ef77f1e578"
+  },
+  {
+    "row_index": 25,
+    "scheme_name": "Prime Minister’s Special Scholarship Scheme For The Students Of Union Territories Of Jammu & Kashmir And Ladakh",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "b1dc78d7fc5b408540a33b07124aec100be241461f0167eb800611ccb594fb40"
+  },
+  {
+    "row_index": 26,
+    "scheme_name": "Swami Vivekananda Single Girl Child Fellowship for Research in Social Sciences",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "51e9955b8b511e5d5df96a01f8ad52fb7ebd11346a01702677e8779c47d0800a"
+  },
+  {
+    "row_index": 27,
+    "scheme_name": "CBSE Merit Scholarship Scheme For Single Girl Child",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "4450ae7374141590882c880d1abf3a04bdcc608e24a991ccf35174473bc1dfde"
+  },
+  {
+    "row_index": 28,
+    "scheme_name": "National Scholarship For Post Graduate Studies",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "0ce673af4db5232581a609d8dd2a464001205e5ca33d042bc27214caaff8f3d4"
+  },
+  {
+    "row_index": 29,
+    "scheme_name": "Pradhan Mantri Uchchatar Shiksha Protsahan Yojana: Central Sector Interest Subsidy Scheme",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "151b73af157a710e207aef9589318e7d85f13181a3bdb035c50e1bce02515fc9"
+  },
+  {
+    "row_index": 30,
+    "scheme_name": "AICTE – Saksham Scholarship Scheme For Specially-Abled Student (Diploma)",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "08d20ef5b7c7923efc9a6d8d7c3460d16aed5ed9e957957caf44be72018b415c"
+  },
+  {
+    "row_index": 31,
+    "scheme_name": "Post Graduate Indira Gandhi Scholarship For Single Girl Child",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "60b3823e80d03a0d28291fefd8ce6619521c67dc56902614ff2168c9050e0a41"
+  },
+  {
+    "row_index": 32,
+    "scheme_name": "Free Education For Sports Medal Winners / Participants Of National/International Events",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "6fdab4bdc30208745a3da035b6f9da71f3084879624728ae43a38bc0488efa6e"
+  },
+  {
+    "row_index": 33,
+    "scheme_name": "Savitribai Jyotirao Phule Fellowship For Single Girl Child",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "eab8e459da1ac75465d43b82bcb8c6598aa857a7b632a78ee79122c9021a4466"
+  },
+  {
+    "row_index": 34,
+    "scheme_name": "Pre Matric Scholarship For Students With Disabilities",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "ee870f804fc892c278c40298381374ce521e04effc90ff114eada105a035d4cd"
+  },
+  {
+    "row_index": 35,
+    "scheme_name": "Junior Research Fellowship",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "db13b5aae75239d015aee3e6d076467646d3cd98c918dbff2d15ad237a6af476"
+  },
+  {
+    "row_index": 36,
+    "scheme_name": "Institutions of Eminence Scheme",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "c4d7c37f8dac74783e603f18e2332fd9d668ae552b44f3c7dd8f03e512a73ea4"
+  },
+  {
+    "row_index": 37,
+    "scheme_name": "Pradhan Mantri Vidyalaxmi (PM-Vidyalaxmi) Scheme",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "e5a8435bf5525ad2386c1641de507872019cf8a40048f20690f7010296a37adf"
+  },
+  {
+    "row_index": 38,
+    "scheme_name": "National Scheme Of Incentive To Girls For Secondary Education",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "afba5d4bba31f9fb9bb5eca33ac92974ac529923891b3d4942e0aeb04e53cea7"
+  },
+  {
+    "row_index": 39,
+    "scheme_name": "Post Graduate Scholarship for GATE/GPAT Qualified Students for Pursuing M.Tech/M.E./M.Pharm-UGC",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "02558660c020563640e8aa79866ddbbd253326f4fcbfcaae129548ba23043bf3"
+  },
+  {
+    "row_index": 40,
+    "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Diploma)",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "417fe240b760a8a59fdcba4dddee3423e54326d337ff2e57014bc52050164e75"
+  },
+  {
+    "row_index": 41,
+    "scheme_name": "Post Graduate Scholarships for Professional Courses for SC/ST Candidates",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "bd529dfc9a6d4df4831ffbf1784d6f2a6770b4cc683585d3e92d71a7cd914d9a"
+  },
+  {
+    "row_index": 42,
+    "scheme_name": "Post Graduate Merit Scholarship Scheme For University Rank Holders At Under-Graduate Level",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "dd1faecf9ada7e510f70bade79b60a2b4d0642986ba0c0bb7f7d45ccb9fa6c9c"
+  },
+  {
+    "row_index": 43,
+    "scheme_name": "Pragati Scholarship Scheme For Girl Students (Technical Degree)",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "f4ecee6e7405a2167f210d63cb54745652942336c9435986843ed2145c33c037"
+  },
+  {
+    "row_index": 44,
+    "scheme_name": "AICTE-Swanath Scholarship Scheme For Students",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "bdedd15a2fdee0b693a987a5eef50e64ae53720ee3fccc9341210038aa7b4e4f"
+  },
+  {
+    "row_index": 45,
+    "scheme_name": "Post Graduate Scholarship Scheme for GATE/GPAT Qualified Students-AICTE",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "77f0641af9af7aa232ccffb5f50d83f4e09b0caab922e07729bbee00a609a5e8"
+  },
+  {
+    "row_index": 46,
+    "scheme_name": "National Means-Cum-Merit Scholarship Scheme",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "774d72c454ab163a32c98486cb8d5324852f55b203eddb38e9778db7f97c6c97"
+  },
+  {
+    "row_index": 47,
+    "scheme_name": "Sanskrit Research Scholarship Scheme",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "543d14941e8938bb96bbe2f510790c5b25a89a3c6cd320b3c21da002a30225a5"
+  },
+  {
+    "row_index": 48,
+    "scheme_name": "National Overseas Scholarship For Students With Disabilities",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "b2ad09bbcc7876aad868e40de64572bc9f6faa2078e3c84bf2f2689b9a36e4c2"
+  },
+  {
+    "row_index": 49,
+    "scheme_name": "Educational Assistance to the Children Studying in 1st to 7th and 8th to 10th Class",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "fd5bdcd1ff7aa72a5bf06640334a640e26dfea59f1057c75446f081adec165d9"
+  },
+  {
+    "row_index": 50,
+    "scheme_name": "Scheme for Grant of Additional Scholarship to the Students of Other Backward Classes of Andaman and Nicobar Islands, for Pursuing Higher Studies Anywhere in India after Secondary Level (Except Class XI & XII)",
+    "state": "All India",
+    "category_file": "education",
+    "source_document_sha256": "038c22ce0202272ed9e89cf86a5e64d0d7f5980186db22fe830f59e2dd826e12"
+  },
+  {
+    "row_index": 51,
+    "scheme_name": "Asangathit Karmakar Gambhir Bimari Chikitsa Sahayata Yojana",
+    "state": "Chhattisgarh",
+    "category_file": "healthcare",
+    "source_document_sha256": "3dd9d5a4bc06415c4d5a7c9e26f2a43279071d728ed83ccafb62d7d488cb4c45"
+  },
+  {
+    "row_index": 52,
+    "scheme_name": "Distress Relief Fund For The Differently Abled (Medical Treatment)",
+    "state": "Kerala",
+    "category_file": "healthcare",
+    "source_document_sha256": "7a71b7f99a302d6943af4dc2c1da85eace49e6e56370583d785f5b800dd14679"
+  },
+  {
+    "row_index": 53,
+    "scheme_name": "Atal Mission For Rejuvenation And Urban Transformation (AMRUT)",
+    "state": "All India",
+    "category_file": "healthcare",
+    "source_document_sha256": "092274f153f335cdd741497375b0733c52a08603ab9a6aebe6238e421edd8b36"
+  },
+  {
+    "row_index": 54,
+    "scheme_name": "Assam Arogya Nidhi Scheme",
+    "state": "Assam",
+    "category_file": "healthcare",
+    "source_document_sha256": "f11a6e8af3d7837e5df6d5f7a1ab8ac22af71f5e58182ad8165385072d1113b5"
+  },
+  {
+    "row_index": 55,
+    "scheme_name": "Theka Shramik Evan Hamaal Shramik Baahy Rogi Chikitsa Sahaayata Yojana",
+    "state": "Chhattisgarh",
+    "category_file": "healthcare",
+    "source_document_sha256": "26764da4e65b3b6bef7627b7f1903889d842fad8473825939e8a12d93f1edd1f"
+  },
+  {
+    "row_index": 56,
+    "scheme_name": "Swachh Bharat Mission – Urban 2.0",
+    "state": "All India",
+    "category_file": "healthcare",
+    "source_document_sha256": "5a08402a3cca4d888f39d427532626a7ad26e509cea88737e242adae572c8bfe"
+  },
+  {
+    "row_index": 57,
+    "scheme_name": "Grant of Financial Assistance to Poor Scheduled Caste Pregnant & Lactating Women",
+    "state": "Puducherry",
+    "category_file": "healthcare",
+    "source_document_sha256": "639b5ba3488a9580b26e856932ada1bef6bc40ef41e19009dc46edcbd361da57"
+  },
+  {
+    "row_index": 58,
+    "scheme_name": "Thayi Bhagya Scheme (Comprehensive Maternal Healthcare)",
+    "state": "Karnataka",
+    "category_file": "healthcare",
+    "source_document_sha256": "485cb37f21b2b8c79dcd82324ab54e2e709711a996d30decd9a6b999898aee3f"
+  },
+  {
+    "row_index": 59,
+    "scheme_name": "Nirmaan Shramik Mrtyu Evan Divyaang Sahaayata Yojana",
+    "state": "Chhattisgarh",
+    "category_file": "healthcare",
+    "source_document_sha256": "e709c8a02489761a02afe90aa137218422e5a0467ff3e7d76e66099fd70c68ec"
+  },
+  {
+    "row_index": 60,
+    "scheme_name": "Safai Karmakar Prasuti Sahayata Yojana",
+    "state": "Chhattisgarh",
+    "category_file": "healthcare",
+    "source_document_sha256": "8967e4d9ea9198d08a85daba8ceea76271e3e586fb45e955805b79e79d8ddf89"
+  },
+  {
+    "row_index": 61,
+    "scheme_name": "Delhi Arogya Nidhi",
+    "state": "Delhi",
+    "category_file": "healthcare",
+    "source_document_sha256": "6281ddfb3a702164a35ac61916a537a05f85367080bc2886c3a61a53a20f65d7"
+  },
+  {
+    "row_index": 62,
+    "scheme_name": "Indian Community Welfare Fund",
+    "state": "All India",
+    "category_file": "healthcare",
+    "source_document_sha256": "910998e67293d970499050859396268a106b1f0cf86e7e04ff789ebe9e529754"
+  },
+  {
+    "row_index": 63,
+    "scheme_name": "Full Medical Checkup Assistance Scheme",
+    "state": "Gujarat",
+    "category_file": "healthcare",
+    "source_document_sha256": "6535b99667ce38fbab8fff4ace10188bfa79d8556161d8236c8eeb377511f3f9"
+  },
+  {
+    "row_index": 64,
+    "scheme_name": "Maternity Benefit",
+    "state": "West Bengal",
+    "category_file": "healthcare",
+    "source_document_sha256": "9518ec2cef6fa917bfe4e2ad6fec2b54fe149fb0832dc0804d496955eed753b1"
+  },
+  {
+    "row_index": 65,
+    "scheme_name": "Odisha State Treatment Fund",
+    "state": "Odisha",
+    "category_file": "healthcare",
+    "source_document_sha256": "f418c5ac170101811a184d9e6b43974881111460e53002e698a79e2f94f00283"
+  },
+  {
+    "row_index": 66,
+    "scheme_name": "Khushi Scheme",
+    "state": "Odisha",
+    "category_file": "healthcare",
+    "source_document_sha256": "8d1feed0b3323f4afe558a77bf95af659dfc2103041e0b56d63ba1615bbd7b67"
+  },
+  {
+    "row_index": 67,
+    "scheme_name": "Mobile Lab Scheme (P.B.O.C.W.W.B)",
+    "state": "Punjab",
+    "category_file": "healthcare",
+    "source_document_sha256": "e20d93c1947a2231ae4b134c1fe72bc704e97cc321cc6792f8c6ab7c3d69795a"
+  },
+  {
+    "row_index": 68,
+    "scheme_name": "Scheme to Provide Relief in Case of Death or Disability of Registered Building Workers",
+    "state": "Andhra Pradesh",
+    "category_file": "healthcare",
+    "source_document_sha256": "1b2e035ff95a245107caf8f2c58bce639a6be6ead9c18c663dba9c87b1723380"
+  },
+  {
+    "row_index": 69,
+    "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+    "state": "All India",
+    "category_file": "healthcare",
+    "source_document_sha256": "f3ced552471c3dd033e65da28d739d5a982631c21b625cb69b25863d38fa6c25"
+  },
+  {
+    "row_index": 70,
+    "scheme_name": "Rastriya Arogya Nidhi - Health Minister’s Cancer Patient Fund",
+    "state": "All India",
+    "category_file": "healthcare",
+    "source_document_sha256": "165b18d56bc531259eb65a40091aa7973eefbe918a10436ad0737ccb52e2c358"
+  },
+  {
+    "row_index": 71,
+    "scheme_name": "Financial Assistance for Medical (JKBOCWWB)",
+    "state": "Jammu and Kashmir",
+    "category_file": "healthcare",
+    "source_document_sha256": "6945bf90c8fb17b9d3706cb944db8d95f65c5410b47563c14706e5a5587a823c"
+  },
+  {
+    "row_index": 72,
+    "scheme_name": "Payment of Death Benefit (HPBOCWWB)",
+    "state": "Himachal Pradesh",
+    "category_file": "healthcare",
+    "source_document_sha256": "d9ca53535e22ad81181af0ee7692a2e262bb375c9ab9e8fb8377e8545587f905"
+  },
+  {
+    "row_index": 73,
+    "scheme_name": "Chief Minister’s Health Insurance Scheme - Nagaland",
+    "state": "Nagaland",
+    "category_file": "healthcare",
+    "source_document_sha256": "4a2e03bf7a7d8259301d4c2db1140d301ffbb719661bb0b0b316efc883407178"
+  },
+  {
+    "row_index": 74,
+    "scheme_name": "Tripura Journalist Health Insurance Scheme",
+    "state": "Tripura",
+    "category_file": "healthcare",
+    "source_document_sha256": "e986435cbfcdef807843b89e4860056b4bacbc8cdde7f918ac366c0011bb1d76"
+  },
+  {
+    "row_index": 75,
+    "scheme_name": "Financial Incentives To Mothers Who Deliver A Girl Child (Mamta)",
+    "state": "Goa",
+    "category_file": "healthcare",
+    "source_document_sha256": "4d23f06060501112aedb661ae05e9b49c03a4db7489ee78cbfea6ec95b2feb9f"
+  },
+  {
+    "row_index": 76,
+    "scheme_name": "Dr. Ambedkar Centrally Sponsored Scheme of Post-Matric Scholarships for the Economically Backward Class (EBC) Students",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "39449c2b18cec63378cdeb74205487e1c19c6c621e1fdb069d1582e15ba02b35"
+  },
+  {
+    "row_index": 77,
+    "scheme_name": "Jeevanam Self-Employment Scheme To Dependents Of Crime Victims",
+    "state": "Kerala",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "986c350e3b8494da88ffc8e99674a099525749037a610776d54d5c6fb1337389"
+  },
+  {
+    "row_index": 78,
+    "scheme_name": "Coaching Schemes For SC/ST/OBC (Non-Creamy Layer) & Minority Students For Universities",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "70e0df4f32de01e05174e3d0a53e7e73095854cb02eeb43f9f4d2cf189d85568"
+  },
+  {
+    "row_index": 79,
+    "scheme_name": "Goa Village & Municipal Child Committee Grants And Awards Scheme",
+    "state": "Goa",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "e17a07834f98ca6492b3e4bf45e61e87801fb77971e0d4931263a6fe8ba2b4e4"
+  },
+  {
+    "row_index": 80,
+    "scheme_name": "Fee Waiver Scheme For SC/ST Students Pursuing Higher Education",
+    "state": "Goa",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "02b843c4ecd56786fc133d7bb920032357a26ba80e5739dadf3f301a357ecafa"
+  },
+  {
+    "row_index": 81,
+    "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "e3455a370d00ac134af847f0136d406378b9e758f35123db96caccd80cc9a434"
+  },
+  {
+    "row_index": 82,
+    "scheme_name": "Financial Assistance For Purchase Of Stationery To SC/ST/OBC/Minorities Students",
+    "state": "Delhi",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "451c8422d3b8b01a028070721a988d594d26549e3682bd37a0ffe9633da0b0e8"
+  },
+  {
+    "row_index": 83,
+    "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Act",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "2ecf9ab9dc6f354be3bed8877ca1acdbf3072b047ceee17c943a7bcf7a056f66"
+  },
+  {
+    "row_index": 84,
+    "scheme_name": "Dr. B.R. Ambedkar Awas Navinikarn Yojna",
+    "state": "Haryana",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "81d0306f81f4aecfde26f63d2c5e1a9f2ee883b111d63dea85e33d47461ccd7d"
+  },
+  {
+    "row_index": 85,
+    "scheme_name": "The Artist Welfare Fund Of Assam",
+    "state": "Assam",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "5aa966d0aaab0e698f48a5b8a9b7ce691e3fb36a2fe0c72eb381515b81d7be5d"
+  },
+  {
+    "row_index": 86,
+    "scheme_name": "State Programme For Rehabilitation Of Persons With Disabilities",
+    "state": "Arunachal Pradesh",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "e3067055950d1a5413ddd5f9d58547ed9de55fb95443b590fabb193d53a83460"
+  },
+  {
+    "row_index": 87,
+    "scheme_name": "Grant of House Construction Subsidy to Scheduled Caste People",
+    "state": "Puducherry",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "4058b8b88cc47a94f58ff5541d84c9a050e41fce265757e64296e28cb3e53ef9"
+  },
+  {
+    "row_index": 88,
+    "scheme_name": "Financial Assistance for Marriage of Poor Scheduled Caste Brides",
+    "state": "Puducherry",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "704bd3feea6e081b3d00a344ea39945a8b4f7ca6a7c219a58c57a7eca3057ef6"
+  },
+  {
+    "row_index": 89,
+    "scheme_name": "Pension to the Persons who lost 100% Eye Sight",
+    "state": "Tripura",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "042b9ef9b1023fdaabc5dadf085e41d87d12f0dbccbd754ab4fa78baea03594f"
+  },
+  {
+    "row_index": 90,
+    "scheme_name": "Leprosy Pension Scheme",
+    "state": "Uttar Pradesh",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "de0479746818916440a11d7c2c6d4c61e467c43d4c8567df77dc67e778aac4dd"
+  },
+  {
+    "row_index": 91,
+    "scheme_name": "Death Benefit Scheme (APB&OCWWB)",
+    "state": "Arunachal Pradesh",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "afb7d4daa2b035c6f33534f9b14ecbe1f0c4aecc9ed8b59f9fd0eef34dcfabc9"
+  },
+  {
+    "row_index": 92,
+    "scheme_name": "HIV / AIDS Pension Scheme",
+    "state": "Puducherry",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "e216839823409a8896950615fd40367f221afbf7a296e3b5ba814b2c553f0601"
+  },
+  {
+    "row_index": 93,
+    "scheme_name": "National Action Plan for Skill Development of Persons with Disabilities",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "6da6401d876475df1a225c5dba065932d646d8a27f5f88e96c56b19c3898e361"
+  },
+  {
+    "row_index": 94,
+    "scheme_name": "Swasraya Scheme For Parents/Mothers Of Physically Handicapped/Mentally Retarded Persons",
+    "state": "Kerala",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "68086ec9bc5bfd94745e2be5f8ccb0379e53989124e06fb8fe57947a4ae774f9"
+  },
+  {
+    "row_index": 95,
+    "scheme_name": "Persons With Disabilities Scheme In Colleges: Financial Assistance To Visually Challenged Teachers",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "97a2bcf3cbd40a34e9b7854edc564a19ad28723c7dc52483b802369137972ee5"
+  },
+  {
+    "row_index": 96,
+    "scheme_name": "Farmer Suicide Ex-Gratia",
+    "state": "Andhra Pradesh",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "0c7d0d774e3768129968e3c4b9e23977c994e49d9bf6ea11790eb6e5bf50ee5d"
+  },
+  {
+    "row_index": 97,
+    "scheme_name": "Rajasthan Chief Minister's Relief Fund - Accident Assistance",
+    "state": "Rajasthan",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "5c261f6aaa76573c73eba471e1b4b6a3ac7cbbea2b2fda5ef3e1adf9b22af01c"
+  },
+  {
+    "row_index": 98,
+    "scheme_name": "Supply of Prosthetic Appliances to Differently Abled Persons",
+    "state": "Puducherry",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "9545f248459734c0498421f0d3a27400d835cfefaba44c0363130e641f8faedb"
+  },
+  {
+    "row_index": 99,
+    "scheme_name": "National Award For Senior Citizens (Vayoshreshtha Samman): Best District Panchayat In Providing Services And Facilities To Senior Citizens",
+    "state": "All India",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "e78a46d4117d45b08ae8b2b320ddb20ec748c28060b7ce968e9bdff0022ace6e"
+  },
+  {
+    "row_index": 100,
+    "scheme_name": "Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls-II",
+    "state": "Tamil Nadu",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "2d0a2b6ef3403d3fe2dddec6b1573ccc59371e8d816c8654cfbfa7df91044b11"
+  },
+  {
+    "row_index": 101,
+    "scheme_name": "Petrol Subsidy To Persons With Disability",
+    "state": "Chandigarh",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "30912c0bc29f509eda7844084e563865dd3f507092aa88dbafdd58ccf1e5ddde"
+  },
+  {
+    "row_index": 102,
+    "scheme_name": "Shramyogi Home Town Scheme- Gujarat Labour Welfare Board",
+    "state": "Gujarat",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "f4c9133a7ae94b6bd8c33ad09daf5436a938a7085e5496c616d2b62646bc42c6"
+  },
+  {
+    "row_index": 103,
+    "scheme_name": "Laptop Purchase Assistance Scheme- Gujarat Labour Welfare Board",
+    "state": "Gujarat",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "d1f4278c120d95cbb35b002a51d066530b97ce1b6d755607b43b23faeb60040c"
+  },
+  {
+    "row_index": 104,
+    "scheme_name": "Thatched House Repair Grant for Re-thatching & Repairs (Sainik Welfare)",
+    "state": "Puducherry",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "bf28f366b97b68a174f8accf3dcbddffb476cf6430c4a69ff12b2661a697f12b"
+  },
+  {
+    "row_index": 105,
+    "scheme_name": "Financial Assistance for Purchase of Agricultural Land to Scheduled Caste Farmers",
+    "state": "Gujarat",
+    "category_file": "socialwelfare",
+    "source_document_sha256": "ce2b5a573ced2b15848d714456794edf35093072221ed397c510884f192a8c28"
+  },
+  {
+    "row_index": 106,
+    "scheme_name": "Scheme of Assistance for the Prevention of Alcoholism & Substance (Drugs) Abuse and for Social Defence Services: General Grant-in-Aid Programme for Financial Assistance in the Field of Social Defence",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "be596d7981671b79f5b5f6bd26ff43050f77e116029cdcc6e8ab2f7750bc68af"
+  },
+  {
+    "row_index": 107,
+    "scheme_name": "Asangathit Karmakar Samachar-Patr Hawker Cycle Sahayata Yojana",
+    "state": "Chhattisgarh",
+    "category_file": "transport",
+    "source_document_sha256": "71004afb77e6d5fc46d34dd77340ea7ca3f58c2f51a7f8677ccc33828b444567"
+  },
+  {
+    "row_index": 108,
+    "scheme_name": "Financial Assistance To Institutions/Societies Belonging To Scheduled Castes/Backward Classes",
+    "state": "Haryana",
+    "category_file": "transport",
+    "source_document_sha256": "1a1a48032f8c658d4e2b45c6a619880b4058f69139a236b8b5ea9af9c9fc7746"
+  },
+  {
+    "row_index": 109,
+    "scheme_name": "HRIDAY: Heritage City Development & Augmentation Yojana",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "ff4ed5defa903cb5ea84db12208e8315fab2fc16862d0be26e07f349767ab48a"
+  },
+  {
+    "row_index": 110,
+    "scheme_name": "Pradhan Mantri Kisan Urja Suraksha Evam Utthan Mahabhiyan Scheme For Farmers",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "177e451d4c412f1f7b0e58493516283c115beffc6623cc8f67cbd47677530127"
+  },
+  {
+    "row_index": 111,
+    "scheme_name": "Agricultural Marketing Infrastructure",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "ec3cea0752d434638932980bfa0b2aadc831e49aeb2f3eb69654e20e9b1b9ffc"
+  },
+  {
+    "row_index": 112,
+    "scheme_name": "Infrastructure Subsidy under Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Industries",
+    "state": "Puducherry",
+    "category_file": "transport",
+    "source_document_sha256": "9c2dc3112fab7900bba062e80ea469c5e47485e0c816c036fbf9c70b867e0a1d"
+  },
+  {
+    "row_index": 113,
+    "scheme_name": "Shravan Kumar Shramik Parivar Tirth Yatra Yojana",
+    "state": "Uttar Pradesh",
+    "category_file": "transport",
+    "source_document_sha256": "ca09d75f1d59b94dd901e0f256b0b18b4b5d74ad3f73c2a4c9f916a93799335b"
+  },
+  {
+    "row_index": 114,
+    "scheme_name": "Scheme for Grant of Financial Assistance for Administering Road Safety Advocacy and Awards for the Outstanding Work Done in the Field of Road Safety",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "87e8a9048dab007684e5e6811d493010a86b5dbbea774a14e5d1f89303e63f08"
+  },
+  {
+    "row_index": 115,
+    "scheme_name": "Rashtriya Gram Swaraj Abhiyan",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "2c7cc841cf53236c93d4f210f5d8ee8c1555925e3446ebd05ccc4a8d623ab54a"
+  },
+  {
+    "row_index": 116,
+    "scheme_name": "Pilgrimage Rejuvenation and Spiritual Augmentation Drive (PRASHAD)",
+    "state": "All India",
+    "category_file": "transport",
+    "source_document_sha256": "86d74a402039d03baac67239a98864f90981a5f80557d8ec1efab9a78464b3e3"
+  },
+  {
+    "row_index": 117,
+    "scheme_name": "Mukhyamantri Prakhand Parivahan Yojana",
+    "state": "Bihar",
+    "category_file": "transport",
+    "source_document_sha256": "9526fcf3a1886c672c70434b7ed4847f337ee1ad304b171eefeb6c4c0dbfc533"
+  },
+  {
+    "row_index": 118,
+    "scheme_name": "District Central Cooperative Banks and through its Branches: Small Road Transport Operators Loan (SRTO Loan)",
+    "state": "Tamil Nadu",
+    "category_file": "transport",
+    "source_document_sha256": "8540b48c6c466e4cc6f527fbd6004c45cf96855f37ca9d73e3442835823b5293"
+  },
+  {
+    "row_index": 119,
+    "scheme_name": "Fair Recreational Activity and Non-Competitive Involvement in Sports Urban Connect Scheme (F.R.A.N.C.I.S Urban Connect Scheme)",
+    "state": "Goa",
+    "category_file": "transport",
+    "source_document_sha256": "1fe39b733e31016397cc98ce1b3066075c8b202c3fa7e027ba1591a2e60ddcf5"
+  },
+  {
+    "row_index": 120,
+    "scheme_name": "Travel Concession To The Differently Abled Persons In State Owned Transport Corporation Buses",
+    "state": "Tamil Nadu",
+    "category_file": "transport",
+    "source_document_sha256": "e0ef29ff5ad7086d30a54abfc070c482842b99c546740267869bb29a1fb53abe"
+  },
+  {
+    "row_index": 121,
+    "scheme_name": "Jharkhand Petrol Subsidy Scheme",
+    "state": "Jharkhand",
+    "category_file": "transport",
+    "source_document_sha256": "f5e5157bf4cc73464e9bedde80542de18684f6081cb6da394d22684f7b130640"
+  },
+  {
+    "row_index": 122,
+    "scheme_name": "Subsidy to Purchase E-Bike for Journalists",
+    "state": "Goa",
+    "category_file": "transport",
+    "source_document_sha256": "dd2852f8a0a996d4aaa3b091128a352a28e3cadf4a7a4f45157ecea8c4d56fa5"
+  },
+  {
+    "row_index": 123,
+    "scheme_name": "Grant of Fuel Subsidy to Differently Abled Persons Who Are Owning Motorised Vehicles",
+    "state": "Puducherry",
+    "category_file": "transport",
+    "source_document_sha256": "eaf1156c668b166ad118fbb3564db624fc7c6ca96be2c86d0778661da4be0d7d"
+  },
+  {
+    "row_index": 124,
+    "scheme_name": "Infrastructure Development Subsidy (For IT/ITES) under Motivation of Entrepreneurs to Start Industries and Fiscal Assistance to Capital Intensive Industries",
+    "state": "Puducherry",
+    "category_file": "transport",
+    "source_document_sha256": "91a1328a50fb323b62b6e79ebe3d63ea5f9ec0bb82f0c25c60a978161d55f53e"
+  },
+  {
+    "row_index": 125,
+    "scheme_name": "Grant-in-aid Scheme to Village Education Committees/Urban Education Committees for minor repairs of Government School buildings",
+    "state": "Goa",
+    "category_file": "transport",
+    "source_document_sha256": "9b5d53822ecd30eeee4ab97314ea8f5f8660d5e0150d6cb8e69bf6c1c77e762a"
+  },
+  {
+    "row_index": 126,
+    "scheme_name": "E-Rickshaw Kalyan Yojana",
+    "state": "Uttarakhand",
+    "category_file": "transport",
+    "source_document_sha256": "ab9682d8558d5586cf1ce584400f6f254cf521c770999bd04dfeb8ae0e43ff32"
+  },
+  {
+    "row_index": 127,
+    "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "922c15935699aa7cce9a61b5913ea9a7c2d9e0393bf3075df0007e808afef5df"
+  },
+  {
+    "row_index": 128,
+    "scheme_name": "Balika Samriddhi Yojana (BSY)",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "35422e6dbcc1ec2d71c1dc52e6e7089c5647a4abc4ae515c051320da4bea9867"
+  },
+  {
+    "row_index": 129,
+    "scheme_name": "CBSE Udaan",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "16ea07b56f76954368bfb3df4fc39dceaa9abdb98ff396666fc53d5e8341dace"
+  },
+  {
+    "row_index": 130,
+    "scheme_name": "National Scheme of Incentive to Girls for Secondary Education (NSIGSE)",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "a4c7d3e2b31b90bfa9bc5e323fe50cda20b3325b91beed6e94fa4876905e920d"
+  },
+  {
+    "row_index": 131,
+    "scheme_name": "Mukhyamantri Kanya Suraksha Yojana",
+    "state": "Bihar",
+    "category_file": "women",
+    "source_document_sha256": "a7a665437cb7a0c7a3fc687a180dc3ca402de0fd823deac9a33e703f3546e6c7"
+  },
+  {
+    "row_index": 132,
+    "scheme_name": "M Mukhyamantri Kanya Utthan Yojana",
+    "state": "Bihar",
+    "category_file": "women",
+    "source_document_sha256": "f12b16007322caf20bd28053e5283e7ed2ea374502371d5a2d856a32c3eb32f6"
+  },
+  {
+    "row_index": 133,
+    "scheme_name": "Indira Gandhi Balika Suraksha Yojana",
+    "state": "Himachal Pradesh",
+    "category_file": "women",
+    "source_document_sha256": "0da489e049e0e71eed4290b42784b3c886c3262cdae2575cb993bfcd0b5e82a5"
+  },
+  {
+    "row_index": 134,
+    "scheme_name": "Ladli Scheme",
+    "state": "Haryana",
+    "category_file": "women",
+    "source_document_sha256": "621fdd6f26b6c249007e030c99fe24147516c418693d64dde3466e3370af2c3e"
+  },
+  {
+    "row_index": 135,
+    "scheme_name": "Dhanalakshmi Scheme",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "365875abd6368fe950b60b2a5b24a35ccaafbc7cdc6f39739966911d96db7008"
+  },
+  {
+    "row_index": 136,
+    "scheme_name": "Beti Bachao Beti Padhao (BBBP)",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "c1028c9d4cb07ac026d4d9f63ff6be928f2d08bc4bd58b93f051a736dc99752f"
+  },
+  {
+    "row_index": 137,
+    "scheme_name": "Chief Minister’s Girl Child Protection Scheme",
+    "state": "Tamil Nadu",
+    "category_file": "women",
+    "source_document_sha256": "22f6be552c39a9d45ad78a0d6ee14500b140ee0e3a8c2281585a11c04ec367da"
+  },
+  {
+    "row_index": 138,
+    "scheme_name": "Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance Scheme",
+    "state": "Tamil Nadu",
+    "category_file": "women",
+    "source_document_sha256": "3a90e15c0fee6a3ba8c8b7d22c43f2597f68ed9223eba662011f3f8ebe93a86c"
+  },
+  {
+    "row_index": 139,
+    "scheme_name": "Annai Teresa Ninaivu Marriage Assistance Scheme for Orphan Girls",
+    "state": "Tamil Nadu",
+    "category_file": "women",
+    "source_document_sha256": "cb9a912a34b305bfde0daaeec31a6200ce556930bccc7b11430fcf620d7d9808"
+  },
+  {
+    "row_index": 140,
+    "scheme_name": "Free Supply of Sewing Machines",
+    "state": "Tamil Nadu",
+    "category_file": "women",
+    "source_document_sha256": "e73aac8bad736fb73b1caba29dda9e63719405b8bc41a8b0ddb9386792e689a3"
+  },
+  {
+    "row_index": 141,
+    "scheme_name": "Self Employment Loan Scheme",
+    "state": "Kerala",
+    "category_file": "women",
+    "source_document_sha256": "158829a3ffb8268965b0f963b4206787d2f2ac6267faf06ce22ba1c59d92b642"
+  },
+  {
+    "row_index": 142,
+    "scheme_name": "SMILE Scheme",
+    "state": "Kerala",
+    "category_file": "women",
+    "source_document_sha256": "276343499c9d443356fa30204c76d9d3ec519ff8b1306a3ef26a24f948fd1204"
+  },
+  {
+    "row_index": 143,
+    "scheme_name": "SHE Pad Project",
+    "state": "Kerala",
+    "category_file": "women",
+    "source_document_sha256": "1b7e8968d0a1f238ea0b4b59e69a3a41fd5aca55797b7fa8b93db619ac620e08"
+  },
+  {
+    "row_index": 144,
+    "scheme_name": "NORKA Vanitha Mithra Self Employment Loan Scheme",
+    "state": "Kerala",
+    "category_file": "women",
+    "source_document_sha256": "c1a65f5d3bd1fae50d73a8f8dcec3dd75f809a5d43916105e30167b4b42a9035"
+  },
+  {
+    "row_index": 145,
+    "scheme_name": "Transgender Self Employment Loan Scheme",
+    "state": "Kerala",
+    "category_file": "women",
+    "source_document_sha256": "751e1ffe8398e40e5c9ed2965c337ffab1fcb0f53cc20aa239c5b7d91a0ea3dc"
+  },
+  {
+    "row_index": 146,
+    "scheme_name": "Stree Shakthi Scheme",
+    "state": "Karnataka",
+    "category_file": "women",
+    "source_document_sha256": "259794ad4b67807c3681ef3942d4dadc21f305112a9e4191043bd5475982bfbe"
+  },
+  {
+    "row_index": 147,
+    "scheme_name": "Gelathi Special Treatment Units",
+    "state": "Karnataka",
+    "category_file": "women",
+    "source_document_sha256": "0bc0adf021a00803d161e81a807c768a113d5cd52b9339c32ae51c4ecfdf2a65"
+  },
+  {
+    "row_index": 148,
+    "scheme_name": "Ujjawala Scheme",
+    "state": "All India",
+    "category_file": "women",
+    "source_document_sha256": "354a8424d96e73ec1a4d8ae9f5d7e0c3431d37ab87091c15b42102dbec50ba13"
+  },
+  {
+    "row_index": 149,
+    "scheme_name": "Santhwana Scheme",
+    "state": "Karnataka",
+    "category_file": "women",
+    "source_document_sha256": "770adb7e49e81f62d814e38fdbf8e8cfa14a92e177d4e86730485764869306cc"
+  },
+  {
+    "row_index": 150,
+    "scheme_name": "Financial Relief for Victims of Atrocities",
+    "state": "Karnataka",
+    "category_file": "women",
+    "source_document_sha256": "94ffa41dcd8da95764875aa0c3ddaf51ace2217b68196c093d2cb50e831b97d6"
+  },
+  {
+    "row_index": 151,
+    "scheme_name": "YSR Aasara",
+    "state": "Andhra Pradesh",
+    "category_file": "women",
+    "source_document_sha256": "6dcfd516201fab396c7802ec9188f9b895f5cb223f2f7309ca08e6e881275f7e"
+  },
+  {
+    "row_index": 152,
+    "scheme_name": "YSR Cheyutha",
+    "state": "Andhra Pradesh",
+    "category_file": "women",
+    "source_document_sha256": "7fb2cd93acfddeea901f3c6d176f968139308c17a6a4a373ebcd7719941c3825"
+  },
+  {
+    "row_index": 153,
+    "scheme_name": "YSR Nethanna Nestham",
+    "state": "Andhra Pradesh",
+    "category_file": "women",
+    "source_document_sha256": "61177e1a09bbf2ab03a64616611d03f5f05e15bb18bf620b70d17440b9344f66"
+  },
+  {
+    "row_index": 154,
+    "scheme_name": "Santhwana Scheme",
+    "state": "Andhra Pradesh",
+    "category_file": "women",
+    "source_document_sha256": "a0548a4198cfcf01ff4bb7e892c96740e201f33f27e7a3ea39f0304c06e89c26"
+  },
+  {
+    "row_index": 155,
+    "scheme_name": "Kalyana Lakshmi / Shaadi Mubarak",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "e625d443c59a0ab495b14ca172da82a95569311feec7d7bcc3d4b16d686cdbdd"
+  },
+  {
+    "row_index": 156,
+    "scheme_name": "Arogya Lakshmi",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "543559739f6d00c538cdfd558b84dfbc97a1b40f4a9355ccf1f7b3c6bf91696a"
+  },
+  {
+    "row_index": 157,
+    "scheme_name": "KCR Kit",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "7f17374a9ba03d1b3884d2dd7abf669c849f89465af6ed177ed978820f686dd6"
+  },
+  {
+    "row_index": 158,
+    "scheme_name": "Stree Nidhi",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "e80239ec862ea9d37d9c345b3d97a9a23d0b7c8484b717597489ea9851ff1d29"
+  },
+  {
+    "row_index": 159,
+    "scheme_name": "Indiramma Mahila Shakti Scheme",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "0fc001ae49d327a615d4acc6df5e3d3829340bab4ff757da5a9729b219b4e15e"
+  },
+  {
+    "row_index": 160,
+    "scheme_name": "T-Aarogya Lakshmi",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "32070fff1ebd2e2de853a8aa87254d6e2110edd8ea7cc95709e5e3d74a930469"
+  },
+  {
+    "row_index": 161,
+    "scheme_name": "Amma Vodi",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "9b8757a2dfb42a1e2278463609764c8d5a0190d11d8c58637cfb9f3ae8a9b360"
+  },
+  {
+    "row_index": 162,
+    "scheme_name": "SHE Teams",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "da3a9b0949da59b2d4930afa03b519e7f998ee50d7605e07ceb5de9868e16532"
+  },
+  {
+    "row_index": 163,
+    "scheme_name": "Financial Assistance for Business Ventures",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "935fd91ab6a7426440d34fa2a7949725dbe0e2a4396ae86a297d562eb86ac536"
+  },
+  {
+    "row_index": 164,
+    "scheme_name": "Free Supply of Sewing Machines",
+    "state": "Telangana",
+    "category_file": "women",
+    "source_document_sha256": "04ab8a58a63e1d6d399aa24b7d10ece4720319ddbafebcdc430faa7178af5b96"
+  },
+  {
+    "row_index": 165,
+    "scheme_name": "Nari Gaurav Niti",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "79d3283e813806807b636a7907b72e1c954ff132f62d97818684f058c538c634"
+  },
+  {
+    "row_index": 166,
+    "scheme_name": "Swayamsiddha Yojana",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "42954029a1dcebd1fafb41a35d1e002900c1b7b520a35ed25abb63d2dfe33b71"
+  },
+  {
+    "row_index": 167,
+    "scheme_name": "Gaurav Nari Niti Vocational Training",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "bf522bd8b267f33dac0344ec4f0ac7fed31eb976a1b63b0f173342b1574155bc"
+  },
+  {
+    "row_index": 168,
+    "scheme_name": "Sakhi One-Stop Centre",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "4d676d03d636808c465504f0ae72a65e936d62d595f870cb21d0c396703e40b1"
+  },
+  {
+    "row_index": 169,
+    "scheme_name": "Mukhyamantri Nari Shakti Yojana",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "a7da0d593da88d1735622bcff0a75a9201500828d8db93bdd9d2fa1026be903a"
+  },
+  {
+    "row_index": 170,
+    "scheme_name": "Saraswati Sadhana Yojana",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "422fd2d53f7f1dd841bf67fed2a7e1c7e2d4f161dba8cc19a32c189d800235ba"
+  },
+  {
+    "row_index": 171,
+    "scheme_name": "Kasturba Gandhi Balika Vidyalaya (KGBV)",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "da970a100763e8c9f1b2bca5888bf3b3b24342cf7c64ea43d425f791a6b1269c"
+  },
+  {
+    "row_index": 172,
+    "scheme_name": "Gujarat Women Economic Development Corporation (GWEDC) Microfinance Scheme",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "75bf438cf14a94be65d893a92f1bf6deb69949fb736a5848d52b35197a4fb490"
+  },
+  {
+    "row_index": 173,
+    "scheme_name": "Free Sewing Machine Scheme",
+    "state": "Gujarat",
+    "category_file": "women",
+    "source_document_sha256": "879a4f316c4698fe5f5a19f844f93f40da84abaf2ec991250076ba83c0602f6e"
+  }
+]

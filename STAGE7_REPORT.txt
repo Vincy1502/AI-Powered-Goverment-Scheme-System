@@ -1,0 +1,50 @@
+GOVSCHEME AI - STAGE 7 IMPLEMENTATION REPORT
+Date: 2026-10-30
+Working base: GovScheme_AI_Stage6_Working_Project.zip (separate extracted copy)
+Dataset: ml/data/cleaned_schemes.csv
+
+SOURCE VALIDATION
+- Cleaned dataset rows: 174
+- Dataset columns: 19
+- Persisted TF-IDF matrix: 174 x 9,867
+- Persisted model artifact version: 1
+- Startup validation: model files, dimensions, metadata count, and row-by-row scheme-name alignment checked
+- Persisted model loaded successfully in the FastAPI service
+
+IMPLEMENTED
+1. Added ml/app/eligibility.py.
+2. Added conservative checks for state, minimum age, maximum age, maximum income, gender, target category, and target occupation.
+3. Each structured check reports pass/fail/unknown and its source field.
+4. Missing/malformed scheme rules and missing profile values are unknown, never treated as a pass.
+5. Natural-language eligibility_criteria and exclusions are returned in manual_review; no free-text condition is converted into an automatic rule.
+6. Added four explicit outcomes: confirmed_eligible, potential_eligibility, insufficient_information, and not_eligible.
+7. confirmed_eligible requires eligibility_rule_provenance with verified=true, source_url, and checked_at. The supplied dataset does not include this verified provenance, so the system does not claim confirmed eligibility from the existing records.
+8. FastAPI now loads Stage 6 persisted artifacts at service startup and uses the saved vectorizer/matrix for /recommend rather than fitting a new model per request.
+9. /recommend returns relevance-ranked schemes plus structured eligibility checks, manual-review items, status, and disclaimers.
+10. /health reports whether the persisted model loaded and identifies its source.
+11. Updated ml/README.md with Stage 7 behavior and run instructions.
+
+TESTS
+Command: cd ml && python -m unittest discover -s tests -v
+Result: 17 tests passed, 0 failed.
+Coverage includes:
+- Eligibility status outcomes and conservative missing-value behavior
+- Natural-language manual review
+- Verified provenance requirement for confirmed eligibility
+- Existing preprocessing and persistence regressions
+- FastAPI health endpoint and recommendation API integration using the persisted Stage 6 model
+
+API SMOKE TEST
+- GET /health: HTTP 200; model_ready=true; model_source=persisted_stage6_artifacts
+- POST /recommend: HTTP 200; persisted model source confirmed; 174 dataset schemes available; returned 3 requested recommendations in the smoke test
+
+LIMITATIONS / NOT CLAIMED
+- No supervised eligibility labels or independent relevance judgements were supplied; no accuracy, precision, recall, F1, or ranking quality claim is made.
+- The source dataset's natural-language criteria and exclusions require manual/official-source review.
+- Confirmed eligibility remains unavailable until official rules are verified and provenance is attached per scheme.
+- MongoDB Atlas credentials and the user's live database were not available; the Node/Express + MongoDB + browser end-to-end workflow was not tested.
+- The existing MongoDB Scheme schema does not expose all structured dataset columns; the ML service uses the cleaned dataset for rule-bearing fields and can enrich matching names from the live catalogue.
+- No original dataset, original project ZIP, or Stage 6 ZIP was overwritten.
+
+NEXT
+Stage 8: connect and display the new eligibility status/checks/manual-review information in the existing frontend without redesigning it, then test the complete browser workflow when local services and MongoDB are available.

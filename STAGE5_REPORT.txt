@@ -1,0 +1,58 @@
+GOVSCHEME AI – STAGE 5 IMPLEMENTATION REPORT
+
+Implementation:
+- Added ml/app/preprocessing.py
+- Added ml/app/feature_extraction.py
+- Added ml/scripts/train_tfidf.py
+- Added ml/tests/test_preprocessing.py
+- Added cleaned source CSV at ml/data/cleaned_schemes.csv
+- Added fitted TF-IDF artifacts under ml/models/
+
+Actual feature extraction results:
+- Records received: 174
+- Records used: 174
+- Records skipped: 0
+- TF-IDF matrix shape: 174 x 9867
+- Vocabulary size: 9867
+- Non-zero weights: 27923
+- Matrix sparsity: 98.3736%
+- Average non-zero terms per scheme: 160.48
+- Fit time in this execution: 32.845 ms
+- Corpus SHA-256: 08a7919f27eb379453acf27edc53d90be8cd4cf18829b092eff813c1b76e3e38
+
+Smoke test:
+- Profile query: state: Tamil Nadu occupation: Farmer query: irrigation agriculture support
+- Query non-zero features: 11
+- Top-five similarity results generated successfully:
+[
+  {
+    "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Minor Irrigation",
+    "score": 0.3573
+  },
+  {
+    "scheme_name": "Pipes Carrying Water From Source To Field",
+    "score": 0.3085
+  },
+  {
+    "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Tractor Purchase",
+    "score": 0.2586
+  },
+  {
+    "scheme_name": "Primary Cooperative Agriculture and Rural Development Bank: For Plantation (Tea)",
+    "score": 0.2584
+  },
+  {
+    "scheme_name": "Distribution of Soil Health Card",
+    "score": 0.2573
+  }
+]
+
+Unit tests:
+- Test process exit code: 0
+- 5 preprocessing tests executed; all passed.
+
+Important limitations:
+- This is content-based TF-IDF feature extraction, not a supervised eligibility classifier.
+- No accuracy, precision, recall, or F1 metrics are claimed.
+- Structured eligibility remains a separate future component.
+- The existing FastAPI main.py has not yet been switched to load these saved artifacts; service integration is a later stage.
